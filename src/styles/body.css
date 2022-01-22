@@ -1,0 +1,124 @@
+@media (max-width: 500px) {
+  body {
+    width: 100%;
+    overflow-y: hidden;
+  }
+
+  .section1 {
+    width: 100%;
+  }
+
+  .section1::after {
+    content: "";
+    background: url(../imgs/bckg.jpg) center center/cover no-repeat;
+    overflow: hidden;
+    height: 1200px;
+    width: 100%;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 1000px;
+}
+
+.App {
+  height: 100%;
+}
+
+body::after {
+  content: "";
+  background: url(../imgs/bckg.jpg) center bottom/ cover no-repeat;
+  overflow: hidden;
+  height: 1035px;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  /* box-shadow: -1px -11px 10px 0px rgba(30, 32, 32, 0.808) inset; */
+}
+
+.container {
+  width: 100%;
+  margin: 4rem 0;
+  margin-top: 6%;
+  display: grid;
+  grid-template-columns: repeat(2, 63%);
+  grid-template-rows: 700px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 60%;
+}
+
+.section2 {
+  width: 100%;
+  max-width: 150vh;
+  height: 80vh;
+  margin: 0 1% 5rem 0;
+}
+
+.section2::after {
+  content: "";
+  background: url(../imgs/section2.jpg) center top/cover no-repeat;
+  overflow: hidden;
+  height: 1100px;
+  width: 100%;
+  opacity: 0.9;
+  top: 110vh;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+.items {
+  margin-right: 1rem;
+  width: 100%;
+}
+
+.bmw {
+  margin: 1rem 0 0 3rem;
+  width: 100%;
+  display: flex;
+  flex-shrink: unset;
+}
+
+.merc {
+  margin: 3rem 0 0 3rem;
+  width: 100%;
+  display: flex;
+  flex-shrink: unset;
+}
+
+.bmwh1 {
+  color: rgb(255, 255, 255);
+  position: relative;
+  left: 6rem;
+  font-size: 27px;
+}
+
+.icon {
+  position: relative;
+  bottom: 0.2rem;
+}
+
+.mercedesh1 {
+  color: white;
+  position: relative;
+  top: 2rem;
+  left: 6rem;
+  font-size: 27px;
+}

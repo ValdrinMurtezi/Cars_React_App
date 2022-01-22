@@ -1,0 +1,80 @@
+.car1 {
+  width: 95%;
+  height: auto;
+  background-color: rgba(144, 180, 180, 0.418);
+  backdrop-filter: blur(3px);
+  border-radius: 5px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+  flex-direction: column;
+}
+
+.nameprice {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-left: 1rem;
+}
+.stats {
+  margin-top: 0.5rem;
+}
+
+.nameprice span {
+  font-size: 18px;
+  color: orange;
+  font-weight: bold;
+}
+
+.jMNKZk {
+  width: 1300px !important;
+}
+
+.jMNKZk button {
+  color: rgb(252, 252, 252) !important;
+  background-color: transparent !important;
+  font-size: 35px !important;
+  padding: 0.4 !important;
+}
+
+.jMNKZk button:disabled {
+  cursor: auto;
+}
+
+.jMNKZk button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.rec-carousel-wrapper {
+  width: 1250px !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.merc {
+  width: 1100px;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  color: rgb(17, 12, 12);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.title h1:hover {
+  color: rgb(184, 182, 182);
+}
+
+.car1 p {
+  font-weight: normal;
+  color: black;
+  font-size: 17px;
+  margin: 0 0 0 5px;
+}
