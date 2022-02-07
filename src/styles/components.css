@@ -29,30 +29,6 @@
   font-weight: bold;
 }
 
-.jMNKZk {
-  width: 1300px !important;
-}
-
-.jMNKZk button {
-  color: rgb(252, 252, 252) !important;
-  background-color: transparent !important;
-  font-size: 35px !important;
-  padding: 0.4 !important;
-}
-
-.jMNKZk button:disabled {
-  cursor: auto;
-}
-
-.jMNKZk button:hover {
-  background-color: white !important;
-  color: black !important;
-}
-
-.rec-carousel-wrapper {
-  width: 1250px !important;
-}
-
 a {
   text-decoration: none;
 }
@@ -63,7 +39,7 @@ a {
 }
 
 h1 {
-  color: rgb(17, 12, 12);
+  color: rgb(243, 243, 243);
   font-size: 20px;
   font-weight: bold;
 }
@@ -77,4 +53,43 @@ h1 {
   color: black;
   font-size: 17px;
   margin: 0 0 0 5px;
+}
+
+.iGMNTI {
+  width: 200vh !important;
+}
+
+.jMNKZk {
+  width: 1300px !important;
+}
+
+.jMNKZk button {
+  color: rgb(252, 252, 252) !important;
+  background-color: transparent !important;
+  font-size: 35px !important;
+  padding: 0.4 !important;
+}
+
+.jMNKZk button:disabled {
+  cursor: auto !important;
+}
+
+.jMNKZk button:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+.rec-carousel-wrapper {
+  width: 1250px !important;
+}
+
+.rec-arrow {
+  color: rgb(252, 252, 252) !important;
+  background-color: transparent !important;
+  font-size: 35px !important;
+  padding: 0.4 !important;
+}
+
+.rec-carousel button:disabled {
+  cursor: auto !important;
 }
