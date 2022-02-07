@@ -17,13 +17,13 @@ const Header = () => {
       <div className="navbar">
         <div className="icon"></div>
         <div className="links">
-          <a href="#" className="home">
+          <a href="#https://www.google.com.co/search" className="home">
             HOME
           </a>
-          <a href="#">ABOUT</a>
-          <a href="#">PARTNERS</a>
-          <a href="#">CONTACT</a>
-          <a href="#">FAQ</a>
+          <a href="#https://www.google.com.co/search">ABOUT</a>
+          <a href="#https://www.google.com.co/search">PARTNERS</a>
+          <a href="#https://www.google.com.co/search">CONTACT</a>
+          <a href="#https://www.google.com.co/search">FAQ</a>
         </div>
       </div>
     </div>

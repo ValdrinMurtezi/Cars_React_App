@@ -1,4 +1,3 @@
-import react from "react";
 import Header from "./components/Header";
 import "./styles/body.css";
 import Article from "./components/Article";
