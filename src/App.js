@@ -5,6 +5,7 @@ import Quote from "./components/Quote";
 import Component2 from "./components/Component2";
 import { Icon } from "@iconify/react";
 import Carousel from "react-elastic-carousel";
+import "./styles/body-mobile.css";
 
 function App() {
   const breakPoints = [

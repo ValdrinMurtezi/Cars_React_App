@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/header.css";
+import "../styles/header-mobile.css";
 
 // react car app
 

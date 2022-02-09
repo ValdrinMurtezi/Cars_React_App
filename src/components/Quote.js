@@ -1,5 +1,5 @@
-import react from "react";
 import "../styles/quote.css";
+import "../styles/quote-mobile.css";
 
 function Quote() {
   return (

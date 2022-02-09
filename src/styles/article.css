@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pushster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
 .article {
-  width: 100%;
+  width: 95%;
   height: 94%;
   background-color: rgba(6, 10, 22, 0.5);
   min-height: 500px;
@@ -20,6 +20,7 @@
 }
 .cartitle img {
   border-radius: 10px;
+  box-shadow: inset;
   -webkit-box-shadow: 2px 2px 2px 16px rgba(5, 5, 4, 0.671);
   width: 80%;
   height: 67%;

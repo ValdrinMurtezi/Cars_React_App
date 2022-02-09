@@ -4,6 +4,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import Carinfo from "./Carinfo";
 import Cars from "./Data";
 import Shopbtn from "./Shopbtn";
+import "../styles/article-mobile.css";
 
 function Article() {
   const [car, setCar] = useState(0);
